@@ -1,20 +1,33 @@
-
-
-h1{
-    font-size: 100px;
-    text-align: left;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-.haha{
-    font-size: 30px;
-    color: blanchedalmond;
-}
-
-#red{
-    color:rebeccapurple;
-}
-table{
+body {
     text-align: center;
-    font-size: 1em;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #faf9f6;
+}
+h1 {
+    font-size: 5rem;
+    margin-top: -1px;
+}
+.firstrow,
+.secondrow,
+.thirdrow {
+    display: flex;
+    text-align: center;
+    gap: 1rem;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.secondrow {
+    margin-top: 13rem;
+}
+
+.thirdrow {
+    margin-top: 26rem;
+}
+
+table {
+    margin-top: -2rem;
 }
